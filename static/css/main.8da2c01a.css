@@ -1,0 +1,2 @@
+#charts-container{flex-direction:column;margin-bottom:25px}#chart-row,#charts-container{display:flex;margin-left:0;margin-right:0;padding:0}#chart-row{flex-direction:row;justify-content:space-evenly;max-width:100%!important}#chart-box{align-items:center;display:flex;flex-direction:column;justify-content:center;margin-top:25px;outline-style:solid;outline-width:1px}body{height:100vh;margin:0;width:100vw}#app,#app-container,#root{height:inherit;width:inherit}
+/*# sourceMappingURL=main.8da2c01a.css.map*/

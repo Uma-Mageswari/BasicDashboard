@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BasicDashboard/static/css/main.8da2c01a.css",
+    "main.js": "/BasicDashboard/static/js/main.e57540f3.js",
+    "index.html": "/BasicDashboard/index.html",
+    "main.8da2c01a.css.map": "/BasicDashboard/static/css/main.8da2c01a.css.map",
+    "main.e57540f3.js.map": "/BasicDashboard/static/js/main.e57540f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8da2c01a.css",
+    "static/js/main.e57540f3.js"
+  ]
+}
