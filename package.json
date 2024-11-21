@@ -1,12 +1,11 @@
 {
-    "name": "react-calculator",
+    "name": "react-dashboard",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://your-username.github.io/react-calculator",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "test": "react-scripts test --watchAll=false --coverage",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
@@ -15,10 +14,11 @@
         "prepare": "husky install"
     },
     "dependencies": {
-        "@emotion/react": "^11.13.3",
-        "@emotion/styled": "^11.13.0",
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
         "@mui/icons-material": "^6.1.7",
-        "@mui/material": "^6.1.7",
+        "@mui/material": "^6.1.8",
+        "@mui/x-charts": "^7.22.3",
         "@types/react": "^18.3.12",
         "@types/react-dom": "^18.3.1",
         "react": "^18.2.0",
@@ -28,14 +28,21 @@
         "web-vitals": "^2.1.4"
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-methods": "^7.18.6",
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.0.1",
+        "@types/jest": "^29.5.14",
         "@typescript-eslint/eslint-plugin": "^8.15.0",
         "@typescript-eslint/parser": "^8.15.0",
-        "eslint": "^9.15.0",
+        "eslint": "^8.0.0",
+        "eslint-config-react-app": "^7.0.1",
         "eslint-plugin-react": "^7.37.2",
         "eslint-plugin-react-hooks": "^5.0.0",
         "gh-pages": "^5.0.0",
         "husky": "^8.0.3",
-        "lint-staged": "^15.2.10"
+        "lint-staged": "^15.2.10",
+        "ts-jest": "^29.2.5"
     },
     "lint-staged": {
         "*.tsx": "eslint --fix"

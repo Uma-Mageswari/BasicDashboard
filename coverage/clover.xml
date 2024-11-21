@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1732155516556" clover="3.2.0">
+  <project timestamp="1732155516556" name="All files">
+    <metrics statements="34" coveredstatements="22" conditionals="12" coveredconditionals="9" methods="11" coveredmethods="7" elements="57" coveredelements="38" complexity="0" loc="34" ncloc="34" packages="4" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/App.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/index.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="15" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6"/>
+      <file name="Dashboard.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/components/Dashboard.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="Footer.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/components/Footer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/components/Header.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+      <file name="Login.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/components/Login.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/components/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.reducers">
+      <metrics statements="9" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="authReducer.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/reducers/authReducer.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="19" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.theme">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="colors.tsx" path="/Users/ammu/Desktop/Github WorkSpace/Portfolio/src/theme/colors.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

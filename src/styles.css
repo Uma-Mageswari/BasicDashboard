@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#root,
+#app-container,
+#app {
+    height: inherit;
+    width: inherit;
+}

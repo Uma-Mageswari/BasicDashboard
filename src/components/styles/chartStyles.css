@@ -1,0 +1,28 @@
+#charts-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+#chart-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+#chart-box {
+    margin-top: 25px;
+    outline-width: 1px;
+    outline-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
